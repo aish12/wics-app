@@ -53,19 +53,19 @@ h2 {
 </head>
     <body>
 
-      <h1>{{ title }}</h1>
+      <h1 style = "color: White; background-color: LightSteelBlue; text-align: center; padding: 5px">{{ title }}</h1>
       <div class="left">
-        <div id="startButton" class="button">
+        <div id="startButton" class="button" style = "color: White; background-color: Green; position: absolute; left: 500px; top: 120px; border: 2px solid Green">
           Start
       </div>
 
       <div class="right">
-        <div id="stopButton" class="button">
+        <div id="stopButton" class="button" style = "color: White; background-color: Tomato; position: absolute; left: 750px; top: 120px; border: 2px solid Tomato">
           Stop
         </div>
-        <h2>Recording</h2>
-        <audio id="recording" width="160" height="120" controls></audio>
-        <a id="downloadButton" class="button">
+        <h2 style = "color: White; background-color: LightSteelBlue; text-align: center; padding: 14px; position: absolute; left: 490px; top: 183px;">Recording</h2>
+        <audio id="recording" width="160" height="120" style = "color: Black; background-color: LightSteelBlue; border: 10px solid LightSteelBlue; position: absolute; left: 620px; top: 200px;" controls>Recording</audio>
+        <a id="downloadButton" class="button" style = "color: White; background-color: Gainsboro; position: absolute; left: 625px; top: 300px; border: 2px solid Gainsboro;">
           Download
         </a>
       </div>
