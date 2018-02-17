@@ -8,13 +8,13 @@ A project template for a minimal Flask app with Bootstrap
 2. Create a virtual environment that uses Python 3:
 
     ```nohighlight
-    $ virtualenv -p $(which python3) venv
+    $ virtualenv env
     ```
 
 3. Activate the virtual environment:
 
     ```nohighlight
-    $ source venv/bin/activate
+    $ source env/bin/activate
     ```
 
 4. Install dependencies:
