@@ -58,8 +58,6 @@ h2 {
         <div id="startButton" class="button">
           Start
       </div>
-      <h2>Preview</h2>
-      <audio id="preview" width="160" height="120"></audio>
 
       <div class="right">
         <div id="stopButton" class="button">
@@ -119,7 +117,6 @@ h2 {
 
           startButton.addEventListener("click", function() {
             navigator.mediaDevices.getUserMedia({
-              video: true,
               audio: true
             }).then(stream => {
               preview.srcObject = stream;
